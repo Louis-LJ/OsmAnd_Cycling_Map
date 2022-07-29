@@ -529,6 +529,7 @@
 	<renderingConstant name="sacScaleColorT5" value="#6000ff"/>
 	<renderingConstant name="sacScaleColorT6" value="#6000ff"/>
 	
+	<renderingConstant name="cycleRouteColor" value="#0000ff"/>
 	<renderingConstant name="cycleRoutelcnColor" value="#0000ff"/>
 	<renderingConstant name="cycleRoutercnColor" value="#5500ff"/>
 	<renderingConstant name="cycleRoutencnColor" value="#aa00ff"/>
@@ -1436,6 +1437,21 @@
 
 	<line>
 		<switch minzoom="5">
+			<switch>
+				<case showCycleRoutes="true" tag="route_bicycle" value=""/>
+				<case showCycleNodeNetworkRoutes="true" tag="route_bicycle" value=""/>
+				<apply>
+					<case maxzoom="11" strokeWidth="1:1"/>
+					<case maxzoom="12" strokeWidth="2:2"/>
+					<case maxzoom="13" strokeWidth="3:3"/>
+					<case maxzoom="14" strokeWidth="4:4"/>
+					<case maxzoom="15" strokeWidth="4:4"/>
+					<case maxzoom="16" strokeWidth="5:5"/>
+					<case maxzoom="17" strokeWidth="6:6"/>
+					<case minzoom="18" strokeWidth="7:7"/>
+				</apply>
+				<apply_if minzoom="13" color="$cycleRouteColor" cap="BUTT"/>
+			</switch>
 			<switch>
 				<case showCycleRoutes="true" tag="route_bicycle" value=""/>
 				<case showCycleNodeNetworkRoutes="true" tag="route_bicycle" value=""/>
