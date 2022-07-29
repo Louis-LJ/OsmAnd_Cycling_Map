@@ -1450,11 +1450,7 @@
 					<case maxzoom="17" strokeWidth="6:6"/>
 					<case minzoom="18" strokeWidth="7:7"/>
 				</apply>
-				<apply_if minzoom="13" color="$cycleRouteColor" cap="BUTT"/>
-			</switch>
-			<switch>
-				<case showCycleRoutes="true" tag="route_bicycle" value=""/>
-				<case showCycleNodeNetworkRoutes="true" tag="route_bicycle" value=""/>
+				<apply_if minzoom="11" color="$cycleRouteColor" cap="BUTT"/>
 			</switch>
 			<apply_if showCycleRoutes="true">
 				<switch>
