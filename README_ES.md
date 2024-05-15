@@ -1,4 +1,12 @@
 # CycloRoute
+<br>
+<br>
+
+> [!WARNING]
+> El renderizado ya no se mantiene aquí, puede encontrarlo en esta nueva dirección:<br>
+> https://github.com/OsmAnd-Rendering/Cycling
+<br>
+<br>
 
 - 🇪🇸 **[Español](README_ES.md)** 🇬🇧 [English](README_EN.md) 🇫🇷 [Français](README.md)
 
