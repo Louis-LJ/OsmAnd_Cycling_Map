@@ -1,4 +1,12 @@
 # CycloRoute
+<br>
+<br>
+
+> [!WARNING]
+> Le rendu n'est plus maintenu ici, vous pouvez retrouver le rendu à cette nouvelle adresse:<br>
+> https://github.com/OsmAnd-Rendering/Cycling
+<br>
+<br>
  - 🇫🇷 **[Français](README.md)** 🇪🇸 [Español](README_ES.md) 🇬🇧 [English](README_EN.md)
 
 Un style de carte pour OsmAnd, axé sur la pratique du vélo et du cycloTourisme<br><br>
